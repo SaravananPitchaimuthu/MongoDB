@@ -9,6 +9,9 @@ djangorestframework = "*"
 django-cors-headers = "*"
 djongo = "*"
 dnspython = "*"
+django-redis = "*"
+djangorestframework-simplejwt = "*"
+django-oauth-toolkit = "*"
 
 [dev-packages]
 
