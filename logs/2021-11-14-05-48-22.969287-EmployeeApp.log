@@ -1,0 +1,5 @@
+
+ ########## [2021-11-14 05:48:23,035] INFO views MainProcess Thread-1 : [2021-11-14-05-48-22.969287.get:19] ########## 
+
+ result_data : {'DepartmentId': 1, 'DepartmentName': 'Development'}
+
