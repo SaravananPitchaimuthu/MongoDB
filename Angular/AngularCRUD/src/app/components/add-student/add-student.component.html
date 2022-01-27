@@ -1,1 +1,35 @@
-<p>add-student works!</p>
+<div>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <div class="form-group">
+        <label for="DepartmentId">DepartmentId</label>
+        <input
+          type="text"
+          class="form-control"
+          id="DepartmentId"
+          required
+          [(ngModel)]="student.DepartmentId"
+          name="DepartmentId"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="DepartmentName">DepartmentName</label>
+        <input
+          class="form-control"
+          id="DepartmentName"
+          required
+          [(ngModel)]="student.DepartmentName"
+          name="DepartmentName"
+        />
+      </div>
+
+      <button (click)="saveTutorial()" class="btn btn-success">Submit</button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>student details was submitted successfully!</h4>
+      <button class="btn btn-success" (click)="newTutorial()">Add</button>
+    </div>
+  </div>
+</div>
